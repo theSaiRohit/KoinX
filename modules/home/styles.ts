@@ -17,14 +17,18 @@ export const homeModuleContainerCss = css`
 export const homeCenterCss = css`
   display: flex;
   flex-direction: column;
+  width: calc(100% - var(--aside-width));
   gap: var(--padding-mid);
+  ${mediaQuery.miniDesktop} {
+    width: 100%;
+  }
 `;
 
 export const homeAsideCss = css`
   display: flex;
   flex-direction: column;
   gap: var(--padding-mid);
-  width: 400px;
+  width: var(--aside-width);
   flex-shrink: 0;
   ${mediaQuery.miniDesktop} {
     width: 100%;

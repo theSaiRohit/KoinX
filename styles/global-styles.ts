@@ -19,9 +19,10 @@ export const globalStylesCss = css`
     --padding-small: 10px;
     --scrollbar-width: 5px;
     --bor-rad-normal: 25px;
+    --aside-width: 400px;
+    --padding-normal: 50px;
 
     //
-    --padding-normal: 50px;
     --font-size-small: 1.2rem;
     --font-size-large: 6.25vw;
     --font-size-med: 2.6rem;
@@ -63,7 +64,8 @@ export const globalStylesCss = css`
       line-height: var(--bor-rad-normal);
     }
     h2,
-    h3 {
+    h3,
+    h4 {
       font-weight: 600;
     }
   }
@@ -76,6 +78,6 @@ export const globalStylesCss = css`
   }
   ::-webkit-scrollbar-thumb {
     border-radius: var(--bor-rad-normal);
-    background-color: var(--color-text-default);
+    background-color: rgb(0, 82, 254);
   }
 `;

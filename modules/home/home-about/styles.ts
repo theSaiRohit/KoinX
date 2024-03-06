@@ -1,3 +1,4 @@
+import { mediaQuery } from "@/styles/media-query";
 import { css } from "@emotion/react";
 
 export const snippetParaCss = css`
@@ -10,6 +11,9 @@ export const snippetParaCss = css`
 export const aboutCardsContainerCss = css`
   display: flex;
   gap: var(--padding-mid);
+  ${mediaQuery.tablet} {
+    flex-direction: column;
+  }
 `;
 
 export const aboutCardsContainerHeaderCss = css`
@@ -30,6 +34,9 @@ export const bitcoinCardCss = css`
   &.orange-bitcoin-card {
     background: linear-gradient(-45deg, rgb(241, 60, 55), rgb(255, 150, 100));
   }
+  ${mediaQuery.tablet} {
+    width: 100%;
+  }
 `;
 
 export const bitcoinCardImgCss = css`
@@ -40,6 +47,12 @@ export const bitcoinCardImgCss = css`
   img {
     object-fit: cover;
   }
+  ${mediaQuery.tablet} {
+    width: 30%;
+    min-width: 50px;
+    flex-shrink: 0;
+    height: 225px;
+  }
 `;
 
 export const bitcoinTextWrapperCss = css`
@@ -47,6 +60,9 @@ export const bitcoinTextWrapperCss = css`
   flex-direction: column;
   min-height: 125px;
   justify-content: space-between;
+  ${mediaQuery.tablet} {
+    min-height: none;
+  }
 `;
 
 export const bitcoinCardHeaderCss = css`

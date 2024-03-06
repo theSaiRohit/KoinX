@@ -18,22 +18,9 @@ export const coinInfoContainerCss = css`
 export const coinImgCss = css`
   height: 30px;
   aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
   img {
     object-fit: cover;
   }
-`;
-
-export const growthNumContainerCss = css`
-  border-radius: var(--scrollbar-width);
-  display: flex;
-  align-items: center;
-  padding: var(--scrollbar-width) var(--padding-small);
-  gap: var(--scrollbar-width);
-  background-color: rgb(235, 249, 244);
-  color: rgb(20, 176, 121);
-  font-weight: 600;
-`;
-
-export const growthNumSvgCss = css`
-  font-size: 1.5rem;
 `;

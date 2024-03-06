@@ -1,3 +1,7 @@
+export const API_KEY = "CG-JqGo4Eup8y8shh4vLgALwo1B";
+
+export const apiUrl = "https://api.coingecko.com/api/v3";
+
 export const companyName = "KoinX";
 
 export const navList = [
@@ -19,6 +23,8 @@ export const navList = [
     extraClassName: "nav-btn"
   }
 ];
+
+export const chartTimeline = ["1H", "24H", "7D", "1M", "3M", "6M", "1Y", "All"];
 
 export const teamData = [
   {
@@ -44,25 +50,27 @@ export const teamData = [
   }
 ];
 
-export const trendingCoinsData = [
-  {
-    name: "Ethereum (ETH)",
-    imgSrc: "/images/crypto/ethereum.png",
-    growthNum: 8.21
-  },
-  {
-    name: "Bitcoin (BTC)",
-    imgSrc: "/images/crypto/bitcoin.png",
-    growthNum: 5.26
-  },
-  {
-    name: "Polygon (MATIC)",
-    imgSrc: "/images/crypto/polygon.png",
-    growthNum: 4.32
-  }
-];
-
-export const bitcoinData = [
+export const bitcoinCardData = [
   { imgSrc: "/images/bitcoin/bitcoin-one.jpg", bgClass: "blue-bitcoin-card", text: "Check your Profits" },
   { imgSrc: "/images/bitcoin/bitcoin-two.jpg", bgClass: "orange-bitcoin-card", text: "Calculate your tax liability" }
 ];
+
+export const analystNumData = [
+  {
+    text: "Buy",
+    percentNum: 76,
+    bgColor: "#00b386"
+  },
+  {
+    text: "Hold",
+    percentNum: 8,
+    bgColor: "#c7c8ce"
+  },
+  {
+    text: "Sell",
+    percentNum: 16,
+    bgColor: "#f7324c"
+  }
+];
+
+export const menuPanels = ["Overview", "Fundamentals", "News Insight", "Sentiments", "Team", "Tokenomics"];

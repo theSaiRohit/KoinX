@@ -1,4 +1,4 @@
-import { bitcoinData } from "@/common-data";
+import { bitcoinCardData } from "@/common-data";
 import ImageWrapper from "@/components/image-wrapper";
 import LinkCtaBtn from "@/components/link-cta-btn";
 import AboutDivSnippet from "@/modules/home/home-about/about-div-snippet";
@@ -14,7 +14,7 @@ import {
 import { commonSectionContainerCss } from "@/styles/common-styles";
 
 export default function HomeAbout() {
-  const bitcoinMapper = (bitcoinCard: (typeof bitcoinData)[0], index: number) => {
+  const bitcoinMapper = (bitcoinCard: (typeof bitcoinCardData)[0], index: number) => {
     const { imgSrc, text, bgClass } = bitcoinCard;
     return (
       <div key={`bitcoin-card-${index}`} css={bitcoinCardCss} className={bgClass}>
@@ -27,7 +27,7 @@ export default function HomeAbout() {
     );
   };
 
-  const paraMapper = (index: number) => {
+  const paraMapper = (_: unknown, index: number) => {
     return (
       <p key={index} css={snippetParaCss}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias inventore reiciendis, ex accusantium architecto
@@ -51,7 +51,7 @@ export default function HomeAbout() {
       </AboutDivSnippet>
       <AboutDivSnippet h3Text="Lorem ipsum dolor sit amet">{[...Array(3)].map(paraMapper)}</AboutDivSnippet>
       <AboutDivSnippet h3Text="Already Holding Bitcoin?" extraHeaderStyles={aboutCardsContainerHeaderCss}>
-        <div css={aboutCardsContainerCss}>{bitcoinData.map(bitcoinMapper)}</div>
+        <div css={aboutCardsContainerCss}>{bitcoinCardData.map(bitcoinMapper)}</div>
       </AboutDivSnippet>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quaerat corporis beatae repudiandae consequuntur

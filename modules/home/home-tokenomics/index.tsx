@@ -21,21 +21,13 @@ export default function HomeTokenomics() {
         </div>
       </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, earum, dolorum odio nulla reiciendis tempora
-        quod pariatur doloremque quisquam quae cumque laborum voluptate iusto mollitia nisi, quam neque? Expedita
-        tempore quo totam unde eum doloribus sapiente! Cum officiis ea, corrupti accusamus aperiam fuga, error ipsa
-        doloremque est culpa deserunt blanditiis, possimus sed assumenda. Sequi quae voluptatum deleniti nam mollitia
-        magnam illo omnis at recusandae porro vel praesentium temporibus vero aspernatur assumenda ut quo, nisi quidem?
-        Quis esse laborum sed, voluptatibus a commodi excepturi laudantium nulla doloribus reprehenderit sint ad,
-        temporibus mollitia, illum aliquid impedit eligendi unde itaque accusamus obcaecati modi aut magni. Impedit
-        nobis necessitatibus perferendis, in, inventore eius corrupti, placeat a molestiae voluptas non consectetur
-        dolor vel saepe esse accusantium tempora? Reiciendis, temporibus accusantium voluptas quis dolor officiis
-        assumenda commodi enim tenetur. Nulla adipisci facere officia sit veniam minus laudantium consequuntur quae
-        molestias, earum expedita incidunt rerum illo dolores deserunt quibusdam aperiam qui soluta blanditiis nostrum
-        beatae! Repudiandae architecto voluptatibus cupiditate quisquam repellat soluta eveniet voluptatem odit amet
-        voluptates impedit inventore facilis cumque, veritatis beatae quis atque non ratione doloribus dolores? Repellat
-        possimus, nisi, quod necessitatibus dolorum nesciunt delectus porro quasi neque commodi rerum fugit fugiat
-        ducimus tempora alias.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio eaque in at consequatur sunt commodi quidem
+        omnis id. Officia maxime a debitis in labore natus, deserunt nemo dignissimos consequuntur officiis unde
+        reprehenderit pariatur facilis inventore dicta. Sapiente molestias nam odio tempora esse doloremque tenetur vero
+        illo pariatur! Ratione fugit odit cum odio aspernatur nesciunt excepturi quisquam doloremque quo! Facilis ipsum
+        culpa blanditiis! A, similique autem dicta totam rem reiciendis nostrum eum voluptate perferendis velit
+        necessitatibus? Hic sit deserunt saepe ratione fugiat optio mollitia soluta, quos distinctio rerum temporibus
+        minima molestiae architecto. Dolorum quas nesciunt cupiditate architecto ducimus doloribus omnis adipisci?
       </p>
     </section>
   );
