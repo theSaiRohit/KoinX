@@ -7,7 +7,6 @@ export const credsWrapperCss = css`
   background-color: var(--color-bg-white);
   padding: var(--padding-mid) 0;
   gap: var(--padding-small);
-  margin-top: 15vh;
   flex-direction: column;
 `;
 
