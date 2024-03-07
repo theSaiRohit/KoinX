@@ -1,6 +1,6 @@
 import { menuPanels } from "@/common-data";
 import { PanelContextObj } from "@/context/panel-context";
-import { menuPanelListCss, menuPanelWrapperCss } from "@/modules/home/home-menu-panel/styles";
+import { menuPanelContainerCss, menuPanelListCss, menuPanelWrapperCss } from "@/modules/home/home-menu-panel/styles";
 import { MouseEventHandler, useContext, useRef, useState } from "react";
 
 export default function HomeMenuPanel() {
@@ -32,8 +32,10 @@ export default function HomeMenuPanel() {
     );
   };
   return (
-    <ul css={menuPanelWrapperCss} ref={panelRef}>
-      {menuPanels.map(menuPanelMapper)}
-    </ul>
+    <div css={menuPanelWrapperCss}>
+      <ul css={menuPanelContainerCss} ref={panelRef}>
+        {menuPanels.map(menuPanelMapper)}
+      </ul>
+    </div>
   );
 }

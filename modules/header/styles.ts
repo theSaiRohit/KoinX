@@ -104,6 +104,7 @@ export const navCss = css`
     justify-content: space-evenly;
     bottom: 100%;
     transition: bottom 0.3s ease;
+    border: 2px solid rgb(0, 82, 254);
     z-index: -1;
     &.nav-active {
       bottom: calc(-1 * var(--nav-height) - 10px);

@@ -1,3 +1,4 @@
+import { mediaQuery } from "@/styles/media-query";
 import { css } from "@emotion/react";
 
 export const psuedoElemCss = css`
@@ -17,6 +18,12 @@ export const psuedoElemCss = css`
       place-items: center;
       font-weight: 600;
       color: rgb(0, 82, 254);
+      ${mediaQuery.tablet} {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: calc(3 * var(--padding-normal));
+      }
     }
   }
 `;

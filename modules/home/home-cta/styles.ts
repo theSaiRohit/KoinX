@@ -1,3 +1,4 @@
+import { mediaQuery } from "@/styles/media-query";
 import { css } from "@emotion/react";
 
 export const homeCtaContainerCss = css`
@@ -11,6 +12,9 @@ export const homeCtaContainerCss = css`
   gap: var(--padding-mid);
   border-radius: var(--bor-rad-normal);
   color: var(--color-bg-white);
+  ${mediaQuery.mobile} {
+    border-radius: var(--bor-rad-small);
+  }
 `;
 
 export const homeCtaHeaderCss = css`

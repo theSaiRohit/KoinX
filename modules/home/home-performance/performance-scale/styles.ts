@@ -17,7 +17,13 @@ export const scaleEndPtsInfoCss = css`
   flex-direction: column;
   gap: var(--padding-small);
   flex-shrink: 0;
+  &:nth-of-type(1) {
+    .scale-end-value {
+      text-align: left;
+    }
+  }
   .scale-end-value {
+    text-align: right;
     font-weight: 600;
   }
 `;

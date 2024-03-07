@@ -2,8 +2,7 @@ import { mediaQuery } from "@/styles/media-query";
 import { css } from "@emotion/react";
 
 export const homeModuleWrapperCss = css`
-  margin-top: calc(var(--header-height) + 5vh);
-  border-top: 1px solid black;
+  margin: calc(var(--header-height) + 5vh) 0;
 `;
 
 export const homeModuleContainerCss = css`

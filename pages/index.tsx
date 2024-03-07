@@ -31,11 +31,13 @@ export const getStaticProps: GetStaticProps = async () => {
       }
     );
     const trendingCoins = trendingCoinsRes.data.coins.slice(0, 3);
+    const recommendationData = trendingCoinsRes.data.coins.slice(0, 10);
     const bitcoinShortData = bitcoinRes.data.bitcoin;
     const bitcoinAllData = bitcoinAllDataRes.data;
     return {
       props: {
         trendingCoins: trendingCoins,
+        recommendationData: recommendationData,
         bitcoinShortData: bitcoinShortData,
         bitcoinAllData: bitcoinAllData
       },

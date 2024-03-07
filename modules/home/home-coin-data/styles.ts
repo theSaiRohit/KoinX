@@ -65,16 +65,16 @@ export const usdCoinInfoCss = css`
   @media screen and (width < 320px) {
     gap: 0;
     .faded-helper-text {
-      scale: 0.75;
+      transform: scale(0.75);
       transform: translateX(-15px);
     }
   }
 `;
 
 export const usdCoinPercentInfoCss = css`
-  scale: 0.9;
+  transform: scale(0.9);
   ${mediaQuery.mobile} {
-    scale: 0.8;
+    transform: scale(0.8);
   }
 `;
 
