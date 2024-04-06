@@ -6,12 +6,7 @@ export default function DeveloperCreds() {
     <div css={credsWrapperCss}>
       <div>
         <span>Developed by</span>
-        <Link
-          href="https://www.linkedin.com/in/sai-rohit-sanniboyina-7a93aa224/"
-          rel="noopener noreferrer"
-          target="_blank"
-          css={[saiRohitLinkCss, nameCss]}
-        >
+        <Link href="https://sairohit.in" rel="noopener noreferrer" target="_blank" css={[saiRohitLinkCss, nameCss]}>
           Sai Rohit S
         </Link>
       </div>

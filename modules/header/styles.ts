@@ -26,7 +26,7 @@ export const headerCss = css`
 `;
 
 export const logoCss = css`
-  height: 75%;
+  height: 120%;
   overflow: hidden;
   display: flex;
   aspect-ratio: 16 / 9;
